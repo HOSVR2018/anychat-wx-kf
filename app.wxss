@@ -1,0 +1,17 @@
+/**app.wxss**/
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px;
+  box-sizing: border-box;
+  text-align: center;
+} 
+button[disabled][type="default"], wx-button[disabled]:not([type]){
+  color: #fff;
+  background: #1098EC;
+  border: 0px;
+  cursor: not-allowed;
+}

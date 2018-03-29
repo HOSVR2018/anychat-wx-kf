@@ -1,0 +1,21 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/productChoice/productChoice",
+    "pages/queue/queue",
+    "pages/taskComplete/taskComplete"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#1098ec",
+    "navigationBarTitleText": "H5客服",
+    "navigationBarTextStyle": "#fff"
+  },
+  "networkTimeout": {
+    "request": 60000,
+    "connectSocket":60000,
+    "uploadFile":60000,
+    "downloadFile":60000
+  },
+  "debug": true
+}
